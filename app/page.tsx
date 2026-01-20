@@ -5,15 +5,23 @@ export default function Portfolio() {
     <div className="min-h-screen bg-slate-50 text-slate-900 font-sans">
       {/* Hero Section */}
       <header className="max-w-4xl mx-auto pt-20 pb-12 px-6">
-        <h1 className="text-5xl font-bold tracking-tight">Hi, I'm [Your Name]</h1>
+        <h1 className="text-5xl font-bold tracking-tight text-slate-900">
+          Ryan Xiang
+        </h1>
         <p className="mt-4 text-xl text-slate-600 max-w-2xl">
-          3rd Year Computer Science student at the University of Waterloo. 
-          Building AI-driven tools and solving complex algorithmic problems.
+          3rd Year **Computer Science** student at the **University of Waterloo**. 
+          Full-stack developer with experience across **3 software engineering internships**.
         </p>
         <div className="flex gap-4 mt-6">
-          <a href="#" className="p-2 bg-slate-900 text-white rounded-full hover:bg-slate-700 transition"><Github size={20} /></a>
-          <a href="#" className="p-2 bg-slate-900 text-white rounded-full hover:bg-slate-700 transition"><Linkedin size={20} /></a>
-          <a href="mailto:email@uwaterloo.ca" className="p-2 bg-slate-900 text-white rounded-full hover:bg-slate-700 transition"><Mail size={20} /></a>
+          <a href="https://github.com/RyanXiang13" target="_blank" className="p-2 bg-slate-900 text-white rounded-full hover:bg-slate-700 transition">
+            <Github size={20} />
+          </a>
+          <a href="#" className="p-2 bg-slate-900 text-white rounded-full hover:bg-slate-700 transition">
+            <Linkedin size={20} />
+          </a>
+          <a href="mailto:rxiang@uwaterloo.ca" className="p-2 bg-slate-900 text-white rounded-full hover:bg-slate-700 transition">
+            <Mail size={20} />
+          </a>
         </div>
       </header>
 
